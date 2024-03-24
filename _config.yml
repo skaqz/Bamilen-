@@ -102,7 +102,5 @@ theme: kira
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
-
-aplayer:
-  asset_inject: false # 禁止 aplayer 注入资源
+  type: 'git'
+  repository: git@gitee.com:Ksayus/bamilen.git

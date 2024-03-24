@@ -43,22 +43,22 @@ maxTagcloud: 0 # 标签云组件显示的标签数量，0 表示不限制
 
 social:
     QQ:
-        - tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=<去掉尖括号后填上你的QQ号>&website=www.oicqzone.com
+        - tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2481374335&website=www.oicqzone.com
         - icon-QQ
         - rgb(49, 174, 255)
         - rgba(49, 174, 255, .1)
     哔哩哔哩:
-        - https://space.bilibili.com/<改成你的B站uid>
+        - https://space.bilibili.com/558271819?spm_id_from=333.1007.0.0
         - icon-bilibili
         - rgb(231, 106, 141)
         - rgba(231, 106, 141, .15)
     GitHub:
-        - https://github.com/<你的github id>/
+        - https://github.com/skaqz
         - icon-github
         - rgb(25, 23, 23)
         - rgba(25, 23, 23, .15)
     Gitee:
-        - https://gitee.com/<你的gitee id>
+        - https://gitee.com/Ksayus
         - icon-gitee
         - rgb(165, 15, 15)
         - rgba(165, 15, 15, .15)
@@ -96,9 +96,9 @@ color: # 配色方案，从first到seventh为优先级为1-7的颜色，默认�
 # 评论区
 gitalk:
     active: false # 是否启用 gitalk
-    admin: -your github username- # 拥有对该repo进行操作的 GitHub username
-    owner: -your github username- # 持有该 repo 的 GitHub username
-    repo: -issue repo name- # 存放评论的 issue 所在的 repo
+    admin: skaqz # 拥有对该repo进行操作的 GitHub username
+    owner: skaqz # 持有该 repo 的 GitHub username
+    repo: Balilen # 存放评论的 issue 所在的 repo
     clientID: -id- # GitHub Client ID
     clientSecret: -key- # GitHub Client Secret
     title: '' # Gitalk Issue Title
